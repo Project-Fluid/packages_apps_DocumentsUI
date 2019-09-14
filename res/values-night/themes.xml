@@ -21,27 +21,27 @@
     <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault.DocumentsUI">
 
         <!-- Toolbar -->
-        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
-        <item name="android:actionBarSize">@dimen/action_bar_size</item>
+        <item name="android:actionModeBackground">?android:colorBackground</item>
+        <item name="android:actionBarSize">48dp</item>
 
         <!-- Color section -->
-        <item name="android:colorAccent">@color/primary</item>
-        <item name="android:colorBackground">@color/app_background_color</item>
-        <item name="android:colorBackgroundFloating">@color/background_floating</item>
+        <item name="android:colorAccent">#ff8ab4f8</item>
+        <item name="android:colorBackground">#ff202124</item>
+        <item name="android:colorBackgroundFloating">#ff3c4043</item>
         <item name="android:colorControlHighlight">@color/ripple_material_dark</item>
-        <item name="android:colorControlActivated">@color/primary</item>
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorSecondary">@color/secondary</item>
-        <item name="android:strokeColor">@color/hairline</item>
+        <item name="android:colorControlActivated">?android:colorPrimary</item>
+        <item name="android:colorPrimary">#ff8ab4f8</item>
+        <item name="android:colorSecondary">#3d8ab4f8</item>
+        <item name="android:strokeColor">#ff5f6368</item>
 
         <!-- System | Widget section -->
         <item name="android:listDivider">@drawable/list_divider</item>
-        <item name="android:statusBarColor">?android:attr/colorBackground</item>
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:windowBackground">?android:colorBackground</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateUnspecified</item>
 
     </style>
 </resources>

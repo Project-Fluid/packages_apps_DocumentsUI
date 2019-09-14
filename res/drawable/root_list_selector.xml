@@ -15,16 +15,16 @@
 -->
 
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-       android:inset="8dp">
+       android:insetRight="10dp">
+
     <shape
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:shape="rectangle">
+        android:shape="rectangle"
+        android:tint="?android:colorSecondary">
         <corners
-            android:topLeftRadius="2dp"
-            android:topRightRadius="2dp"
-            android:bottomLeftRadius="2dp"
-            android:bottomRightRadius="2dp"/>
-        <solid
-            android:color="?android:attr/colorSecondary"/>
+            android:topLeftRadius="0dp"
+            android:topRightRadius="48dp"
+            android:bottomLeftRadius="0dp"
+            android:bottomRightRadius="48dp" />
     </shape>
 </inset>
