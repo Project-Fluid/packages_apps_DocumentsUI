@@ -21,27 +21,28 @@
     <!-- DocumentsTheme is allow customize by run time overlay -->
     <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault.DocumentsUI">
 
-        <item name="android:actionBarSize">@dimen/action_bar_size</item>
-        <item name="android:actionModeBackground">?android:attr/colorBackground</item>
+        <item name="android:actionBarSize">48dp</item>
+        <item name="android:actionModeBackground">?android:colorBackground</item>
 
         <!-- Color section -->
-        <item name="android:colorAccent">@color/primary</item>
-        <item name="android:colorBackground">@android:color/white</item>
-        <item name="android:colorBackgroundFloating">@color/background_floating</item>
+        <item name="android:colorAccent">#ff1a73e8</item>
+        <item name="android:colorBackground">#ffffffff</item>
+        <item name="android:colorBackgroundFloating">#ffffffff</item>
         <item name="android:colorControlHighlight">@color/ripple_material_light</item>
-        <item name="android:colorControlActivated">@color/primary</item>
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorSecondary">@color/secondary</item>
-        <item name="android:strokeColor">@color/hairline</item>
+        <item name="android:colorControlActivated">#ff1967d2</item>
+        <item name="android:colorPrimary">#ff1a73e8</item>
+        <item name="android:colorSecondary">#ffe8f0fe</item>
+        <item name="android:strokeColor">#ffdadce0</item>
 
         <!-- System | Widget section -->
         <item name="android:listDivider">@drawable/list_divider</item>
         <item name="android:statusBarColor">?android:colorBackground</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">?android:strokeColor</item>
         <item name="android:windowBackground">?android:colorBackground</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateUnspecified</item>
 
         <!-- OEM should not overlay this attr -->
         <item name="android:windowNoTitle">true</item>

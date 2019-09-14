@@ -1,7 +1,7 @@
 <!--
-Copyright (C) 2016 The Android Open Source Project
+    Copyright (C) 2016 The Android Open Source Project
 
-   Licensed under the Apache License, Version 2.0 (the "License");
+    Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
@@ -19,6 +19,6 @@ Copyright (C) 2016 The Android Open Source Project
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:fillColor="#5F6368"
-        android:pathData="M5 17h14v2H5zm7-12L5.33 15h13.34z"/>
+        android:fillColor="#ff5f6368"
+        android:pathData="M5,17h14v2L5,19zM12,5L5.33,15h13.34L12,5zM12,8.6l2.93,4.4L9.07,13L12,8.6z" />
 </vector>
