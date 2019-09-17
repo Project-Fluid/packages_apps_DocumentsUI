@@ -16,7 +16,7 @@
 
 <resources>
     <!-- Material design rounded radius -->
-    <dimen name="material_round_radius">2dp</dimen>
+    <dimen name="material_round_radius">@*android:dimen/config_dialogCornerRadius</dimen>
 
     <dimen name="grid_container_padding">20dp</dimen>
     <dimen name="list_container_padding">0dp</dimen>
@@ -49,7 +49,7 @@
     <dimen name="dir_elevation">8dp</dimen>
     <dimen name="drag_shadow_size">120dp</dimen>
     <dimen name="grid_item_elevation">2dp</dimen>
-    <dimen name="grid_item_radius">8dp</dimen>
+    <dimen name="grid_item_radius">@*android:dimen/config_dialogCornerRadius</dimen>
     <dimen name="max_drawer_width">280dp</dimen>
     <dimen name="briefcase_icon_margin">8dp</dimen>
     <dimen name="briefcase_icon_size">14dp</dimen>
@@ -92,7 +92,7 @@
     <dimen name="search_chip_group_margin">8dp</dimen>
     <dimen name="search_chip_spacing">8dp</dimen>
     <dimen name="search_chip_icon_padding">4dp</dimen>
-    <dimen name="search_chip_radius">8dp</dimen>
+    <dimen name="search_chip_radius">@*android:dimen/config_buttonCornerRadius</dimen>
 
     <dimen name="dialog_content_padding_top">18dp</dimen>
     <dimen name="dialog_content_padding_bottom">24dp</dimen>
