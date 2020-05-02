@@ -27,7 +27,7 @@
         <!-- Color section -->
         <item name="android:colorAccent">#ff8ab4f8</item>
         <item name="android:colorBackground">#ff202124</item>
-        <item name="android:colorBackgroundFloating">#ff3c4043</item>
+        <item name="android:colorBackgroundFloating">#ff303134</item>
         <item name="android:colorControlHighlight">@color/ripple_material_dark</item>
         <item name="android:colorControlActivated">?android:colorPrimary</item>
         <item name="android:colorPrimary">#ff8ab4f8</item>
